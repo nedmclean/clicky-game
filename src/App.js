@@ -14,8 +14,6 @@ let topScore = 0;
   class App extends Component {
     
     state = {
-        
-
           correct,
           click,
           matched,
@@ -52,7 +50,6 @@ setClicked = id => {
          correct++;
             clickedMatch[0].clicked = true;
 
-           
             
             click = "Helluva Click!";
 
@@ -86,7 +83,7 @@ setClicked = id => {
 
                 <div>
                 <h2 className="score">
-                    How well can you remember your invertebrates?! Click on each once; a second click on any returns your score to zero! !
+                    How well can you remember your invertebrates?! Click on each once; a second click on any returns your score to zero!
                 </h2>
                 
                 <h2 className="score">
