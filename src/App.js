@@ -57,9 +57,10 @@ setClicked = id => {
 
 
             if (correct > topScore){
-                  topScore = correct;
+                  
+              topScore = correct;
                 
-                this.setState({ topScore });
+                this.setState({topScore});
             }
 
 
@@ -78,7 +79,7 @@ setClicked = id => {
     render() {
         return (
             <Wrapper>
-                <Title>Behold the Sea! And Its Many Fluffy Critters! Get to Clicking. </Title>
+                <Title>Behold the Sea! And Its Many Fluffy Critters (plus dino)! Get to Clicking. </Title>
                 {this.state.matched.map(match => (
                       <Card
                         setClicked={this.setClicked} key={match.id} id={match.id} image={match.image}
@@ -87,7 +88,7 @@ setClicked = id => {
 
                 <div>
                 <h2 className="score">
-                    How well can you remember your invertebrates?! Click on each once; a second click on any returns your score to zero!
+                    How well can you remember your invertebrates?! Click on each once; a second click on any returns your 'correct guesses' to zero!
                 </h2>
                 
                 <h2 className="score">
