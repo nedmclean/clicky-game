@@ -81,8 +81,7 @@ setClicked = id => {
             <Wrapper>
                 <Title>Behold the Sea! And Its Many Fluffy Critters (plus dino)! Get to Clicking. </Title>
                 {this.state.matched.map(match => (
-                      <Card
-                        setClicked={this.setClicked} key={match.id} id={match.id} image={match.image}
+                      <Card setClicked={this.setClicked} key={match.id} id={match.id} image={match.image}
                     />
                 ))}
 
@@ -90,22 +89,12 @@ setClicked = id => {
                 <h2 className="score">
                     How well can you remember your invertebrates?! Click on each once; a second click on any returns your 'correct guesses' to zero!
                 </h2>
-                
-                <h2 className="score">
-                    {this.state.click}
-                </h2>
-                
-                <h2 className="score">
-                    Correct Guesses: {this.state.correct} 
-                </h2>
-                
-                <h2 className="score">
-                    Best Score: {this.state.topScore} 
-                </h2>
+                <h2 className="score">{this.state.click}</h2>
+                <h2 className="score"> Correct Guesses: {this.state.correct}</h2>
+                <h2 className="score">Best Score: {this.state.topScore}</h2>
                 </div>
-                
             </Wrapper>
-        );
+      );
     }
 }
 export default App;
