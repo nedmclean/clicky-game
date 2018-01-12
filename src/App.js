@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import Card from "./components/card";
-import Wrapper from "./components/wrapper";
-import Title from "./components/title";
 import matched from "./octocards.json";
+import Title from "./components/title";
+import Wrapper from "./components/wrapper";
+import Card from "./components/card";
+
+
 import "./App.css";
 
 let click = "Click, babe!";
@@ -40,7 +42,7 @@ setClicked = id => {
             }
 
             this.setState({click});
-            this.setState({ correct });
+            this.setState({correct});
             this.setState({matched});
 
 
@@ -61,7 +63,9 @@ setClicked = id => {
             }
 
 
-            matched.sort(function(){return 0.5 - Math.random()});
+            matched.sort(function(){
+
+              return Math.random()});
  
                 this.setState({ matched });
                 
