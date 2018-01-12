@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/images/octopus.png",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "./assets/images/jellyfish.png",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "./assets/images/dumbo.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "./assets/images/dino.png",
+    "clicked": false
+  },
+   {"id": 5,
+    "image": "./assets/images/ctenophore.png",
+    "clicked": false
+  },
+  {"id": 6,
+    "image": "./assets/images/lobster.png",
+    "clicked": false
+  },
+  {"id": 7,
+    "image": "./assets/images/glaucus.png",
+    "clicked": false
+  },
+  {"id": 8,
+    "image": "./assets/images/porc.png",
+    "clicked": false
+  },
+  {"id": 9,
+    "image": "./assets/images/arrow.png",
+    "clicked": false
+  },
+  {"id": 10,
+    "image": "./assets/images/bobbit.png",
+    "clicked": false
+  },
+  {"id": 11,
+    "image": "./assets/images/upside.png",
+    "clicked": false
+  },
+  {"id": 12,
+    "image": "./assets/images/mantis.png",
+    "clicked": false
+  }
+
+
+]

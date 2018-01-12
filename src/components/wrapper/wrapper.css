@@ -1,0 +1,11 @@
+.wrapper {
+  padding-top: 35px;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  padding: 10px;
+  text-align: center;
+   overflow: auto;
+  display: flex;
+  height: 100%;
+ 
+}
