@@ -1,15 +1,13 @@
 .card {
-/*  background: #fff;*/
-  border-radius: 2px;
+  border-radius: 1px;
   position: relative;
 }
 
-.card > .img-container {
-  overflow: hidden;
+.card > .imgCon {
   text-align: center;
   background:white;
 }
-.card > .img-container > img {
-  height: 90%;
-  width: 90%;
+.card > .imgCon > img {
+  height: 70%;
+  width: 70%;
 }
